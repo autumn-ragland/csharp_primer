@@ -1,0 +1,13 @@
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.exe
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.deps.json
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.runtimeconfig.json
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.runtimeconfig.dev.json
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.dll
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\bin\Debug\netcoreapp3.1\csharpPrimer.pdb
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.csprojAssemblyReference.cache
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.AssemblyInfoInputs.cache
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.AssemblyInfo.cs
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.csproj.CoreCompileInputs.cache
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.dll
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.pdb
+C:\Users\student\Code_School\csharp_primer\csharpPrimer\obj\Debug\netcoreapp3.1\csharpPrimer.genruntimeconfig.cache
