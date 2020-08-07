@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System; // required for Console methods
+using System.Collections.Generic; // required for list and array methods
+using System.Linq; // required for LINQ methods
 
 namespace csharpPrimer
 {
@@ -42,12 +42,12 @@ namespace csharpPrimer
             ToList method
             First or Default method
             */
-            // UsingLinq();
+            // Using/Linq();
 
             /*
 
             */
-            // UsingConditionals();
+            UsingConditionals();
 
             /*
             
@@ -161,6 +161,23 @@ namespace csharpPrimer
         static void UsingConditionals()
         {
             Console.WriteLine("Using Conditionals");
+            int correctNum = 10; // define an integer
+            // prompt the user to enter a number in the console
+            Console.Write("Guess a number : "); // using Write instead of WriteLine doesn't start a new line after the output
+            // save the user input from the console
+            string userGuess =  Console.ReadLine(); 
+            // convert the userGuess from a string to an integer in order to compare the values
+            int userNum;
+            Int32.TryParse(userGuess, out userNum); //call the TryParse method and pass in the value to convert and a value to return
+            // compare values
+            if(userNum == correctNum)
+            {
+                Console.WriteLine("You guessed the correct number!"); // if values are equal 
+            } 
+            else 
+            {
+                Console.WriteLine("You did NOT guess the correct number"); // if values are not equal
+            }
         }
 
         static void UsingLoops()
