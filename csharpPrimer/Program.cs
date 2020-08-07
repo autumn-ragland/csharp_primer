@@ -174,6 +174,26 @@ namespace csharpPrimer
             {
                 Console.WriteLine($"You did NOT guess the correct number.\nThe correct number is {correctNum}"); // if values are not equal
             }
+
+            Console.WriteLine("Switchcase");
+            Console.WriteLine("Who is the greatest instructor of all time?"); // prompt the user to enter an instructor name
+            string userInput = Console.ReadLine(); // save user input from the console
+            // switch case comparing the value of the user input
+            switch(userInput)
+            {
+                case "Autumn":
+                Console.WriteLine("You entered a pretty good instructor, but not the greatest of all time"); // if the user inputs "Autumn"
+                break;
+                case "Kenn":
+                Console.WriteLine("This instructor has moved on to Greener Mountains ;) "); // if the user inputs "Kenn"
+                break;
+                case "Kevin":
+                Console.WriteLine("YEP! You got it ninja"); // if the user inputs "Kevin"
+                break;
+                default:
+                Console.WriteLine("This isn't even an instructor!"); // if the user does not input one of the options above
+                break;
+            }
         }
 
         /// <summary>method <c>UsingLoops</c>
