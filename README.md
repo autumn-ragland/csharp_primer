@@ -16,3 +16,4 @@ Concepts Covered
 - LINQ Query Expressions
 - ToList and FirstOrDefault methods
 - Conditionals 
+- Type Conversion

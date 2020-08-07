@@ -12,12 +12,12 @@ namespace csharpPrimer
             /*
             Comment in a method below to see the basics of C# at work!
             */
-            Introduction();
-            DefineClasses();
-            DefineListsAndArrays();
-            UsingLinq();
-            UsingConditionals();
-            UsingLoops();
+            // Introduction();
+            // DefineClasses();
+            // DefineListsAndArrays();
+            // UsingLinq();
+            // UsingConditionals();
+            // UsingLoops();
 
         }
         /// <summary>method <c>Introduction</c>
@@ -151,7 +151,8 @@ namespace csharpPrimer
 
         /// <summary>method <c>UsingConditionals</c>
         ///
-        /// - concept
+        /// - Type Conversion
+        /// - If Statements
         /// </summary>
         static void UsingConditionals()
         {
@@ -177,17 +178,38 @@ namespace csharpPrimer
 
         /// <summary>method <c>UsingLoops</c>
         ///
-        /// - concept
+        /// - While Loop
+        /// - For Loop
         /// </summary>
         static void UsingLoops()
         {
             Console.WriteLine("Using Loops");
+
+            string userInput = ""; // define a string to hold user input from the console
+            List<string> userInputList = new List<string>(); // define an empty list to hold all user input
+
+            // prompt the user to enter anything into the console until they enter q
+            // append each entry to a list
+            while(userInput != "q")
+            {
+                userInputList.Add(userInput); // add input to array
+                Console.WriteLine("Enter anything!\nEnter q to quit"); // prompt for input
+                userInput = Console.ReadLine(); // keep up with input
+            }
+
+            // output all entries
+            Console.WriteLine("Here's what you entered!");
+            // iterate through list
+            for(int i = 0; i < userInputList.Count(); i++ )
+            {
+                // output each element in the list
+                Console.WriteLine(userInputList[i]);
+            }
         }
 
     }
     /// <summary>class <c>PetClass</c>
-    ///
-    /// - concept
+    /// Class with properties Name, Age, Type (enum), and Trainned(bool)
     /// </summary>
     class PetClass  
     {
@@ -198,8 +220,7 @@ namespace csharpPrimer
         
     }
     /// <summary>enum <c>PetType</c>
-    ///
-    /// - concept
+    /// An enumeration type (or enum type) is a value type defined by a set of named constants of the underlying integral numeric type
     /// </summary>
     enum PetType
     {
