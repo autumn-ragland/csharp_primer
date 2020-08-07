@@ -10,52 +10,23 @@ namespace csharpPrimer
         {
             Console.WriteLine("Welcome to C#"); 
             /*
-            Output a method below to see the basics of C# at work!
+            Comment in a method below to see the basics of C# at work!
             */
-
-            /*
-            Outputing to the console
-            Reading input to the console
-            Declaring variables
-            String Templating
-            */
-            // Introduction();
-
-            /*
-            Define a class
-            Declare a new instance of a class
-            Access properties of an object using dot notation
-            Use enumerated types
-            */
-            // DefineClasses();
-
-            /*
-            Defining Arrays
-            Accessing Elements in an Array
-            Array Methods
-            */
-            // DefineListsAndArrays();
-
-            /*
-            Define a list of objects
-            LinQ select statement
-            ToList method
-            First or Default method
-            */
-            // Using/Linq();
-
-            /*
-
-            */
+            Introduction();
+            DefineClasses();
+            DefineListsAndArrays();
+            UsingLinq();
             UsingConditionals();
-
-            /*
-            
-            */
-            // UsingLoops();
+            UsingLoops();
 
         }
-
+        /// <summary>method <c>Introduction</c>
+        /// 
+        /// - Outputing to the console
+        /// - Reading input to the console
+        /// - Declaring variables
+        ///  - String Templating
+        /// </summary>
         static void Introduction()
         {
             Console.Write("Enter your name:"); // Output to the console
@@ -64,6 +35,13 @@ namespace csharpPrimer
             Console.WriteLine($"Hello {userName}"); // String Templating
         }
 
+        /// <summary>method <c>DefineClasses</c>
+        ///
+        /// - Define a class
+        /// - Declare a new instance of a class
+        /// - Access properties of an object using dot notation
+        /// - Use enumerated types
+        /// </summary>
         static void DefineClasses()
         {
             Console.WriteLine("Defining Classes");
@@ -96,6 +74,12 @@ namespace csharpPrimer
 
         }
 
+        /// <summary>method <c>DefineListsAndArrays</c>
+        ///
+        /// - Defining Arrays
+        /// - Accessing Elements in an Array
+        /// - Array Methods
+        /// </summary>
         static void DefineListsAndArrays()
         {
             Console.WriteLine("Defining Lists and Arrays!");
@@ -135,9 +119,16 @@ namespace csharpPrimer
             Console.WriteLine($"The second element in the strList is {strList[1]} and the array is {strList.Count} elements long");
         }
 
+        /// <summary>method <c>UsingLinq</c>
+        ///
+        /// - Define a list of objects
+        /// - LINQ select statement
+        /// - ToList method
+        /// - First or Default method
+        /// </summary>
         static void UsingLinq()
         {
-            Console.WriteLine("Using LinQ Query Operations");
+            Console.WriteLine("Using LINQ Query Operations");
             // Define a list of PetClass objects
             List<PetClass> petList = new List<PetClass>();
             petList.Add(new PetClass{Name = "Dory", Age = 3, Type = PetType.Fish, Trainned = true});
@@ -158,6 +149,10 @@ namespace csharpPrimer
             Console.WriteLine($"{petResults3.Name} has been found");
         }
 
+        /// <summary>method <c>UsingConditionals</c>
+        ///
+        /// - concept
+        /// </summary>
         static void UsingConditionals()
         {
             Console.WriteLine("Using Conditionals");
@@ -180,12 +175,20 @@ namespace csharpPrimer
             }
         }
 
+        /// <summary>method <c>UsingLoops</c>
+        ///
+        /// - concept
+        /// </summary>
         static void UsingLoops()
         {
             Console.WriteLine("Using Loops");
         }
 
     }
+    /// <summary>class <c>PetClass</c>
+    ///
+    /// - concept
+    /// </summary>
     class PetClass  
     {
         public string Name;
@@ -194,7 +197,10 @@ namespace csharpPrimer
         public bool Trainned;
         
     }
-
+    /// <summary>enum <c>PetType</c>
+    ///
+    /// - concept
+    /// </summary>
     enum PetType
     {
         Dog, Cat, Fish, Bird, Exotic
