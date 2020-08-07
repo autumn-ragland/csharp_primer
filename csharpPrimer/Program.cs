@@ -176,7 +176,7 @@ namespace csharpPrimer
             } 
             else 
             {
-                Console.WriteLine("You did NOT guess the correct number"); // if values are not equal
+                Console.WriteLine($"You did NOT guess the correct number.\nThe correct number is {correctNum}"); // if values are not equal
             }
         }
 
